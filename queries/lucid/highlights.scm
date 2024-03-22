@@ -1,5 +1,3 @@
-; Keywords
-
 [
   "let"
   "return"
@@ -10,14 +8,21 @@
   "else"
 ] @keyword
 
-; Operators
-
 [
   "="
   "->"
   "=="
   ">"
+  "<"
+  "+"
+  "-"
+  "%"
 ] @operator
+
+[
+  ","
+  ":"
+] @punctuation.delimiter
 
 [
   "("
@@ -27,8 +32,6 @@
   "{"
   "}"
 ] @punctuation.bracket
-
-; Literals
 
 [
   (number)
