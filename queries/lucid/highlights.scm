@@ -40,3 +40,5 @@
 [
   (string)
 ] @string
+
+(comment) @comment
